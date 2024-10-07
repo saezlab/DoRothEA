@@ -29,7 +29,7 @@ activities, please check out
 
 DoRothEA is available in
 [Bioconductor](http://bioconductor.org/packages/release/data/experiment/html/dorothea.html). 
-In addition, one can install the development version from the Github repository:
+In addition, one can install the development version from the GitHub repository:
 ```r
 ## To install the package from Bioconductor
 if (!requireNamespace("BiocManager", quietly = TRUE))
@@ -57,13 +57,13 @@ Since the original release, we have implemented some extensions in DoRothEA:
   [Holland et al., 2020](https://doi.org/10.1186/s13059-020-1949-z)
 
 3. **Extension to other databases**
-  We have released a new literature based GRN with increased coverage and better
+  We have released a new literature-based GRN with increased coverage and better
   performance at identifying perturbed TFs, called [CollecTRI](https://github.com/saezlab/CollecTRI).
   We encourage users to use CollecTRI instead of DoRothEA. Vignettes on how to
-  obtain activities are available at the [decoupleR package](https://saezlab.github.io/decoupleR/).
+  obtain activities are available in [decoupleR package](https://saezlab.github.io/decoupleR/).
 
 ## License
-DoRothEA is intended only for academic use as in contains resources
+DoRothEA is intended only for academic use as it contains resources
 whose licenses don't permit commercial use. However, we developed a non-academic
 version of DoRothEA by removing those resources (mainly TRED from the curated
 databases). You can find the non-academic package with the regulons [here](https://github.com/saezlab/dorothea/tree/non-academic).
